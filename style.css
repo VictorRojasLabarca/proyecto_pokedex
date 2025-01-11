@@ -100,6 +100,9 @@ body{
 .left>.panel_control>button:hover{
     box-shadow: 2px 2px 3px black;
 }
+.left>.panel_control>button:active{
+    box-shadow: none
+}
 .left>.panel_control>.search{
     display: flex;
     flex-direction: column;
@@ -128,6 +131,9 @@ body{
 }
 .left>.panel_control>.search>.search-button:hover{
     box-shadow: 2px 2px 3px black;
+}
+.left>.panel_control>.search>.search-button:active{
+    box-shadow: none;
 }
 .left>.decoration-1{
     display: flex;
